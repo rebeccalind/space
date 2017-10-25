@@ -2,11 +2,18 @@ body {
     background-color: #000000;
 }
 
+.wrapper {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+    
 .header {
     text-align: center;
     position: fixed;
     z-index: 200;
-    width: 100%;
+    max-width: 90%;
 }
 
 .header h1 {
@@ -26,11 +33,23 @@ body {
 #map {
     height: 900px;
     width: 110%;
-    margin-left: -10px;
-    margin-right: -20px;
-    margin-top: -20px;
+    margin: 0 auto;
 }
 
 .coordinates {
     color: grey;
+}
+    
+@media only screen and (max-width: 750px) {
+    
+    .header h1 {
+        margin-top: 150px;
+        font-size: 40px;
+    }
+
+    .header h2 {
+        margin-top: -20px;
+        font-size: 14px;
+    }
+    
 }
