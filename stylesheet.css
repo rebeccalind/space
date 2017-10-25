@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+}
+
+.header {
+    text-align: center;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Fascinate Inline';
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.header h2 {
+    color: darkgrey;
+    font-family: 'Open Sans';
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+#map {
+    height: 900px;
+    width: 110%;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+
+.coordinates {
+    color: grey;
+}
