@@ -1,5 +1,5 @@
 var url = 'http://api.open-notify.org/iss-now.json';
-// API from http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+console.log("API from http://open-notify.org/Open-Notify-API/ISS-Location-Now/");
 
 fetch(url)
 
